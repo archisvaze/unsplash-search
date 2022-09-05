@@ -1,4 +1,21 @@
-# Getting Started with Create React App
+# Unsplash Image Search Engine
+
+Link: https://wall-splash.netlify.app/
+
+![Screenshot 2022-09-05 101754](https://user-images.githubusercontent.com/92965519/188362727-4ce4d4b7-7b57-4869-865e-4ecccd8dcc5f.png)
+
+![Screenshot 2022-09-05 101716](https://user-images.githubusercontent.com/92965519/188362732-6a9032dc-960a-4df4-bad9-40953f39e49b.png)
+
+Use [Unsplash API](https://unsplash.com/documentation) to create an image search page. 
+When the page loads show some default image, you can show popular or trending images.
+
+Here is what UI should look like at the minimum:
+![](https://i.imgur.com/HDeCjEx.png)
+
+### Note
+If you are unable to get API key from pexels, you can use this one: `563492ad6f91700001000001f600d4b0691a48db9dc1fb4924dc754d`
+
+Use ReactJS to do this challenge
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
