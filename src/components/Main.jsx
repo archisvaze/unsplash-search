@@ -55,6 +55,7 @@ export default function Main() {
                         if (e.key === "Enter") {
                             search(state.query);
                             dispatch(setQuery(""))
+                            e.target.blur();
                         }
                     }}
                     onChange={(e) => {
