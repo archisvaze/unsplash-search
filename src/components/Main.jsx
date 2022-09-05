@@ -31,7 +31,7 @@ export default function Main() {
         fetch(`https://api.unsplash.com/search/photos/?page=1&query=${query}`, requestOptions)
             .then(res => res.json())
             .then(data => {
-                // console.log(data.results)
+                console.log(data.results)
                 dispatch(setImages(data.results))
                 setTimeout(() => {
                     dispatch(setLoading(false))
@@ -70,7 +70,8 @@ export default function Main() {
                                 onClick={() => {
                                     window.open(obj?.links?.html, '_blank')
                                 }}
-                                className='unsplash-img' src={obj?.urls?.regular} alt="" />
+                                className='unsplash-img' src={obj?.urls?.small_s3
+                                } alt="" />
                         )
                     })}
                 </div>
