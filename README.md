@@ -12,12 +12,7 @@ When the page loads show some default image, you can show popular or trending im
 Here is what UI should look like at the minimum:
 ![](https://i.imgur.com/HDeCjEx.png)
 
-### Note
-If you are unable to get API key from pexels, you can use this one: `563492ad6f91700001000001f600d4b0691a48db9dc1fb4924dc754d`
-
 Use ReactJS to do this challenge
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
